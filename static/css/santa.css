@@ -1,0 +1,372 @@
+body {
+  font-family: "museo-slab",serif;
+  color: black;
+}
+
+html, body {
+  background-color: white;
+}
+
+#wrapper {
+  margin: auto;
+}
+
+#header {
+  text-align: center;
+}
+#header h1 {
+  margin-bottom: 0;
+}
+#header h2 {
+  margin-top: 0;
+}
+
+#splash {
+  margin-top: 200px;
+}
+
+div.fb-like {
+  float: right;
+  margin-top: 40px;
+}
+
+div#modal-like {
+  float: none;
+  display: block;
+  margin: auto;
+  width: 70px;
+  margin-top: 5px;
+}
+
+#content a {
+  color: white;
+  text-decoration: none;
+}
+
+#content a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+}
+h2, h3 {
+    font-weight: 300;
+}
+h3 {
+  font-size: 38px;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+
+  position: relative;
+  z-index: 1;
+}
+
+.title{
+  font-size:50px;
+}
+
+#gifts-topbar {
+  display: none;
+  background-image: url(/static/images/bow.png);
+  background-position: -9999px -9999px;
+  background-repeat: no-repeat;
+}
+
+#gifts-topbar .navbar-inner {
+  background: white;
+  color: black;  
+  height: 100px;
+}
+
+#gifts-topbar .navbar-inner div.span {
+  height: 100px;
+}
+
+#gifts-topbar .navbar-inner h3 {
+  margin-top: 15px;
+}
+
+#gifts-topbar .navbar-inner .container div:first-child {
+  margin-left: 0px;
+}
+
+
+/**** Gift Page ****/
+
+#arrow {
+  position: relative;
+  margin-top: 25px;
+  line-height: 35px;
+  text-decoration: none !important;
+  letter-spacing: 3px;
+}
+
+#arrow:hover {
+  background-position: bottom;
+  background-color:#f70b0b;
+}
+
+#ribbon {
+  height: 137px;
+  width: 600px;
+  position: relative;
+  left: -40px;
+  top: -35px;
+  background: url(/static/images/ribbon.png) -120px;
+  z-index: 0;
+  display: none;
+}
+
+#friend-picker {
+  font-size: 200%;
+  line-height:100%;
+  width: 600px;
+  margin: auto;
+  display: block;
+  height: 40px;
+  background-color:#FFFBFB;
+}
+
+.ui-autocomplete li a {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+.ui-autocomplete li span {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.ui-autocomplete li img {
+  height: 40px;
+  width: 40px;
+  padding-right: 10px;
+  float: left;
+}
+
+div#top-spinner {
+  display: none;
+  margin: auto;
+  margin-top: 100px;
+  width: 200px;
+}
+
+div#top-spinner img {
+  display: block;
+  margin: auto;
+}
+
+#like-spinner {
+  display: block;
+  margin: auto;
+  min-height: 0px;
+  min-width: 0px;
+}
+
+div#thanks-modal {
+  width: 299px;
+  height: 354px;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px; 
+  left: 60%;
+}
+
+div#thanks-modal img {
+  display: block;
+  margin: auto;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+#thanks-modal p {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom:20px;
+  line-height: 24px;
+  font-family:museo-slab, serif;
+}
+
+#like-us .container {
+}
+
+#like-us-inner {
+  width: 500px;
+  display: block;
+  margin: auto;
+  background-color: #ffffff;
+  border: 1px solid #dedede;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  padding: 4px;
+  height: 100px;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+
+#like-us-inner div.fb-like {
+  float: none;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#like-us {
+  display: none;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+#like-us p { 
+  font-family: "museo-slab",serif;
+  text-align: center;
+  font-size: 24px;
+}
+
+h3 span.christmas {
+  color: #f70b0b;
+}
+
+h4{
+  text-align:center;
+}
+
+img#present-tiny {
+  height: 50px;
+  display: inline;
+  margin-top: -15px;
+  margin-bottom: 10px;
+  
+}
+
+div#price{
+  margin-top:8px;
+  margin-right:10px;
+  font-size: 16px;
+}
+
+#recommendations li:hover {
+  border: 1px solid #b7b7b7;
+  -webkit-box-shadow: 0 0 0 1px rgba(14,41,57,0.10),0 2px 5px rgba(14,41,57,0.40),inset 0 -1px 2px rgba(14,41,57,0.2);
+  -moz-box-shadow: 0 0 0 1px rgba(14,41,57,0.10),0 2px 5px rgba(14,41,57,0.40),inset 0 -1px 2px rgba(14,41,57,0.2);
+  -ms-box-shadow: 0 0 0 1px rgba(14,41,57,0.10),0 2px 5px rgba(14,41,57,0.40),inset 0 -1px 2px rgba(14,41,57,0.2);
+  -o-box-shadow: 0 0 0 1px rgba(14,41,57,0.10),0 2px 5px rgba(14,41,57,0.40),inset 0 -1px 2px rgba(14,41,57,0.2);
+  box-shadow: 0 0 0 1px rgba(14,41,57,0.10),0 2px 5px rgba(14,41,57,0.40),inset 0 -1px 2px rgba(14,41,57,0.2);
+}
+
+#recommendations li {
+  transition: all .1s ease;
+  -webkit-transition: all .1s ease;
+  border: 1px solid #dedede;
+}
+
+#recommendations li img#bow {
+  display: inline;
+  min-height: 30px;
+  min-width: 30px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+}
+
+#recommendations li img#cart {
+  display: inline;
+  min-height: 20px;
+  max-height: 20px;
+  min-width: 20px;
+  max-width: 20px;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom:10px;
+}
+
+#recommendations div.span {
+  margin-left: 0px;
+}
+
+img.typekit-badge{
+  display:none !important;
+}
+
+a#friend_request{
+  color:black;
+  text-decoration:underline;
+  display:none;
+}
+
+ul#recommendations li.loading-placeholder {
+  background: white;
+  height: 150px;
+}
+
+ul#recommendations li.loading-placeholder h2 {
+  margin-top: 20px;
+  color: black; 
+}
+
+ul#recommendations li.loading-placeholder img#like-spinner {
+  margin-top: 10px;
+}
+
+ul#recommendations li.like-tile {
+  height: 230px;
+}
+
+ul#recommendations li.like-tile h2 {
+  margin-top: 50px;
+}
+
+ul#recommendations li.like-tile span {
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+div#footer {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: white;
+  border: 1px solid #DEDEDE;
+}
+
+div#footer.fixed {
+  position: absolute;
+  bottom: 0px;
+  padding: 0px;
+  border: none;
+}
+
+div.ad-container{
+  width:300px;
+  height:250px;
+}
+
+.fb_edge_widget_with_comment span.fb_edge_comment_widget iframe.fb_ltr {
+display: none !important;}
+
+#header-like span iframe{
+    height:21px !important;
+    width:77px !important;
+}
+
+.like-tile span iframe{
+    height:21px !important;
+    width:77px !important;
+}

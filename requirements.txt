@@ -1,0 +1,14 @@
+Flask==0.9
+Jinja2==2.6
+Logbook==0.4
+Mako==0.7.3
+MarkupSafe==0.15
+Werkzeug==0.8.3
+python-dateutil==2.1
+pytz==2012h
+requests==0.14.2
+simplejson==2.6.2
+six==1.2.0
+times==0.6
+tornado==2.4.1
+wsgiref==0.1.2

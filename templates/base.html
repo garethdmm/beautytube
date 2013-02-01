@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>{% block title %}Tipsy Duchess{% end %}</title>
+  <html xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:og="http://ogp.me/ns#"
+        xmlns:fb="http://www.facebook.com/2008/fbml">
+
+  <link rel="stylesheet" href="/static/css/bootstrap.css">
+
+  {% block custom_css %}
+  {% end %}
+
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+  <script type="text/javascript" src="/static/js/bootstrap.js"></script>
+
+  {% block custom_js %}
+  {% end %}
+
+  <link rel="icon" type="image/png" href="/static/images/favicon.ico">
+
+</head>
+  <body>
+    <div id="content">
+      {% block content %}{% end %}
+    </div>
+    {% block footer %}
+    <!--
+    <div id="footer">
+      &copy 2013 <a href='#'>Tipsy Duchess</a>
+    </div>-->
+    {% end %}
+  </body>
+</html>
