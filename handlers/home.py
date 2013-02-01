@@ -8,6 +8,9 @@ import requests
 class HomeHandler(BaseHandler):
     """
     """
-    def get(self):
-        self.render_template("home.html")
+    def get(self, video):
+        self.render_template("home.html",
+            args={
+                'video': video
+        })
 

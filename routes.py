@@ -11,8 +11,8 @@ SRC_ROOT = path(ROOT, SANTA_ROOT)
 
 """DOCUMENTATION TODO"""
 url_patterns = [
-    (r"/",                          HomeHandler),
     (r"/static/(.*)", tornado.web.StaticFileHandler, {"path": "%s/static" % SRC_ROOT }),
+    (r"/(.*)",                          HomeHandler),
 ]
 
 
