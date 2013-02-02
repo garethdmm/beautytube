@@ -1,4 +1,12 @@
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/static/fonts/HelveticaLTStd-Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
+  font-family: 'Helvetica Neue';
   background-color: #f1f1ec;
 }
 
@@ -6,14 +14,16 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-left: -485px;
-  margin-top: -335px;
-  /*margin-left: -520px;
+  /*margin-left: -485px;
+  margin-top: -335px;*/
+  margin-left: -520px;
   margin-top: -360px;
-  padding: 32px 50px;
+}
+
+#video-container {
+  padding: 24px 37.5px;
   border: 1px solid #D7D6D1;
   background: white;
-  border-radius: 7px;*/
 }
 
 /*

@@ -9,8 +9,11 @@ class HomeHandler(BaseHandler):
     """
     """
     def get(self, video):
-        self.render_template("home.html",
-            args={
-                'video': video
-        })
+        if video == '':
+            self.render_template("home.html")
+        else:
+            self.render_template("video.html",
+                args={
+                    'video': video
+            })
 
