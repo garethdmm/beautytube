@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Tipsy Duchess{% end %}
+
+{% block custom_css %}
+  <link rel="stylesheet" href="/static/css/home.css">
+{% end %}
+
+{% block content %}
+
+<div id='base'>
+  <h1>{{ args['title'] }}</h1>
+  <div id='video-container'>
+    <iframe width="958" height="600" src="http://www.youtube.com/embed/{% raw args['video'] %}?showinfo=0&controls=0&theme=light&autoplay=1&hd=1" frameborder="0" allowfullscreen modestbranding=1></iframe>
+  </div>
+</div>
+{% end %}
