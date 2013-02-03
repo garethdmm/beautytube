@@ -8,7 +8,15 @@
 {% block content %}
 
 <div id='base'>
-  <h1>ZenTube</h1>
-  <h2>The quick brown fox jumps over the lonely dog</h2>
+  <div id='splash'>
+    <h1>ZenTube</h1>
+    <h2>Share youtube videos without all the clutter</h2>
+  </div>
+  <h3>Paste a youtube link:</h3>
+  <form class='form-horizontal'>
+    <div class='control-group'>
+      <input type='text' id='youtube-link' placeholder='http://www.youtube.com/watch?v=Pkj3UCDCchk' class='input-large'/>
+    </div>
+  </form>
 </div>
 {% end %}

@@ -20,10 +20,25 @@ body {
   margin-top: -360px;
 }
 
+#splash {
+  margin-bottom: 50px;
+}
+
+input[type=text] {
+  border-radius: 5px;
+  width: 450px;
+  height: 27px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
 #video-container {
   padding: 24px 37.5px;
   border: 1px solid #D7D6D1;
   background: white;
+}
+
+h1, h2, h3 {
 }
 
 /*
