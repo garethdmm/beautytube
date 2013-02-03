@@ -37,3 +37,21 @@ input[type=text] {
   border: 1px solid #D7D6D1;
   background: white;
 }
+
+#link-container {
+  display: none;
+}
+
+#link-container.has-link {
+  display: block;
+}
+
+#link-container h3 {
+  margin-bottom: 3px;
+}
+
+a#zentube-link {
+  font-size: 18px;
+  line-height: 1;
+}
+

@@ -5,6 +5,10 @@
   <link rel="stylesheet" href="/static/css/home.css">
 {% end %}
 
+{% block custom_js %}
+  <script type="text/javascript" src="/static/js/zentube.js"></script>
+{% end %}
+
 {% block content %}
 
 <div id='base'>
@@ -18,5 +22,9 @@
       <input type='text' id='youtube-link' placeholder='http://www.youtube.com/watch?v=Pkj3UCDCchk' class='input-large'/>
     </div>
   </form>
+  <div id='link-container'>
+    <h3>Share this link:</h3>
+    <a id='zentube-link' href='#'></a>
+  </div>
 </div>
 {% end %}
